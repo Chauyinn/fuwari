@@ -1,7 +1,7 @@
 ---
 title: 如何搭建个人影视库
 published: 2026-01-21
-updated: 2026-07-02
+updated: 2026-07-13
 description: '通过 Arr 系列软件和 Jellyfin，搭建个人影视库的全过程，并分享一些配置建议和使用技巧'
 image: ''
 tags: ["NAS", "AIO", "Jellyfin", "Docker", "Arr"]
@@ -315,7 +315,7 @@ services:
 ![feishin_webui](feishin_webui.png)
 <div class="text-center">Feishin 界面</div>
 
-- [music-assistant](https://github.com/music-assistant/server)，一个聚合多种音乐平台的音乐播放器，支持 Jellyfin、Apple Music、Spotify 等多种音乐平台
+- [music-assistant](https://github.com/music-assistant/server)，一个聚合多种音乐平台的音乐播放器，支持 Jellyfin、Apple Music、Spotify、QQ 音乐、网易云音乐等多种音乐平台
 
 ![music-assistant](music-assistant_webui.png)
 <div class="text-center">Music Assistant 界面</div>
