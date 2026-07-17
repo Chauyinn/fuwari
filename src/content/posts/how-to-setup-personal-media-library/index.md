@@ -1,7 +1,7 @@
 ---
 title: 如何搭建个人影视库
 published: 2026-01-21
-updated: 2026-07-13
+updated: 2026-07-17
 description: '通过 Arr 系列软件和 Jellyfin，搭建个人影视库的全过程，并分享一些配置建议和使用技巧'
 image: ''
 tags: ["NAS", "AIO", "Jellyfin", "Docker", "Arr"]
@@ -84,7 +84,7 @@ services:
       - PGID=1000
       - TZ=Asia/Shanghai
       - WEBUI_PORT=8080
-      - TORRENTING_PORT=6881 # 可以根据需要修改默认的监听端口
+      - TORRENTING_PORT=6881 # 可以根据需要修改默认的监听端口，一些 PT 站 tracker 不支持默认的 6881 端口
     volumes:
       - /path/to/qbittorrent/appdata:/config
       - /path/to/downloads:/downloads
