@@ -68,3 +68,9 @@
 *   `style(post): 按照排版规范格式化 macOS 配置 IPv6 文章`
 *   `feat(post): 添加关于 Caddy 反代 RDP 的新文章`
 *   `chore(deps): 更新 package.json 中的 Astro 依赖到最新版`
+
+---
+
+### 3. 文章更新时间规范 (Post Update Date Guideline)
+在修改 Markdown 文章时，必须检查 Frontmatter 中的 `updated` 字段：
+*   **自动修正**：如果 `updated` 字段的日期不是修改当天的日期（今天），必须将其修正为修改当天的日期（格式为 `YYYY-MM-DD`）。
